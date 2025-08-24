@@ -1,4 +1,6 @@
 # core/urls.py
+from logging import root
+
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -17,6 +19,7 @@ urlpatterns = [
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     path("admin/", admin.site.urls),
     path("health/", health),
+    path("", root),  # 👈 الهوم
     path("api/v1/products/<int:product_id>/reviews/", ProductReviewListCreateView.as_view(), name="product-reviews"),
     path("api/v1/reviews/<int:pk>/", ReviewDetailView.as_view(), name="review-detail"),
     path("admin/", admin.site.urls),
