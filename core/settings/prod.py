@@ -24,7 +24,7 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
 
 # السر من البيئة (لا تضع مفتاحًا صريحًا هنا)
-SECRET_KEY = os.environ["SECRET_KEY"]
+SECRET_KEY = "_[1uSKG;]q0z*?6=E:2lu/.mNZv|,u97r-Ady3vb?PdOS'9ZgyaO_wV\\@wa`AQ86"
 
 # ترتيب الميدلوير في الإنتاج + WhiteNoise للستايتك
 MIDDLEWARE = [
