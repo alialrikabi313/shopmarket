@@ -1,0 +1,40 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "slug": "electronics",
+      "parent": null,
+      "created_at": "2025-08-23T09:12:00Z",
+      "updated_at": "2025-08-23T09:12:00Z"
+    }
+  },
+  {
+    "model": "catalog.brand",
+    "pk": 1,
+    "fields": {
+      "name": "Apple",
+      "slug": "apple",
+      "created_at": "2025-08-23T09:12:05Z",
+      "updated_at": "2025-08-23T09:12:05Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "sku": "IP13-128-BLK",
+      "title": "iPhone 13 128GB",
+      "slug": "iphone-13-128gb",
+      "description": "Smartphone",
+      "brand": 1,
+      "category": 1,
+      "price": "699.00",
+      "stock": 15,
+      "is_active": true,
+      "created_at": "2025-08-23T09:12:10Z",
+      "updated_at": "2025-08-23T09:12:10Z"
+    }
+  }
+]
